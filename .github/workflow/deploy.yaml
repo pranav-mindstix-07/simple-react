@@ -4,7 +4,7 @@ on:
     branches: [main]
   workflow_dispatch:
 permissions:
-  content: write
+  contents: write
 jobs:
   build_and_deploy:
     runs_on: ubuntu_latest
