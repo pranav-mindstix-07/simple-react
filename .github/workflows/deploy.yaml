@@ -7,7 +7,7 @@ permissions:
   contents: write
 jobs:
   build_and_deploy:
-    runs_on: ubuntu_latest
+    runs-on: ubuntu_latest
     steps: 
       - name: Checkout Repository
         uses: actions/checkout@v3
